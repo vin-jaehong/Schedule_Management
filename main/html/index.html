@@ -9,8 +9,33 @@
     <script type="text/javascript" src="../js/index.js"></script>
 </head>
 <body>
-    
-        
-    
+    <div class="wrap">
+        <div class="header">
+            <div class="container">
+                <p>일정 관리 사이트</p>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="container">
+                <div class="date_select">
+                    <select name="year" class="year_sel">
+                        <!-- 현재 연도, 다음 연도 동적으로 옵션 생성 -->     
+                    </select>
+                    <select name="month" class="month_sel">
+                        <!-- 동적으로 월 옵션 생성, 현재 월 selected -->
+                    </select>
+                </div>
+                <div class="schedule_list">
+                    <!-- 동적으로 선택된 월 에 대한 달력 생성 -->
+                </div>           
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                푸터
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

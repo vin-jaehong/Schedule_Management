@@ -1,0 +1,4 @@
+/*default setting*/
+* { margin:0; padding:0; border:0; font-size:100%; list-style:none; box-sizing:border-box; font-weight:normal; }
+
+.container { position: relative; width:1280px; border:1px solid black; margin:0 auto; }
