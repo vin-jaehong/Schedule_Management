@@ -22,7 +22,7 @@
         scheduleListPrint();
         
     });
-
+    
     /* 달력 표시 함수 */
     var scheduleListPrint = function()
     {
