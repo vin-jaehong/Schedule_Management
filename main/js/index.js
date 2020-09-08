@@ -20,7 +20,6 @@
             else if( i != toMonth ) $(".month_sel").append("<option value='"+i+"'>"+i+"월</option>");
         }
         scheduleListPrint();
-        
     });
     
     /* 달력 표시 함수 */

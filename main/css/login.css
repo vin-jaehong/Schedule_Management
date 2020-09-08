@@ -1,0 +1,10 @@
+/*default setting*/
+* { margin:0; padding:0; border:0; font-size:100%; list-style:none; box-sizing:border-box; font-weight:normal; border-collapse:seperate; }
+.font_red { color:red; }
+
+.container { position: relative; width:1280px; margin:0 auto; }
+@media(max-width:1300px)
+{
+    .container { width:100%; }
+}
+
